@@ -2,7 +2,7 @@
     <string name="app_name">ASTON_intensive_4</string>
     <string name="task_2">Task 2</string>
     <string name="task_1">Task 1</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="go_to_b_fragment">Go to B Fragment</string>
     <string name="back_to_a">Back to A</string>
