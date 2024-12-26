@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainNavFragment">
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.android.aston_intensive_4.task_2.ui.UserListFragment"
+        android:label="fragment_user_list"
+        tools:layout="@layout/fragment_user_list" >
+        <action
+            android:id="@+id/action_userListFragment_to_editUserFragment"
+            app:destination="@id/editUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editUserFragment"
+        android:name="com.android.aston_intensive_4.task_2.ui.EditUserFragment"
+        android:label="fragment_edit_user"
+        tools:layout="@layout/fragment_edit_user" >
+        <action
+            android:id="@+id/action_editUserFragment_to_userListFragment"
+            app:destination="@id/userListFragment" />
+        <argument
+            android:name="user"
+            app:argType="com.android.aston_intensive_4.task_2.model.User" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+    <argument
+        android:name="position"
+        app:argType="integer" />
+    <fragment
+        android:id="@+id/mainNavFragment"
+        android:name="com.android.aston_intensive_4.MainNavFragment"
+        android:label="fragment_main_nav"
+        tools:layout="@layout/fragment_main_nav" >
+        <action
+            android:id="@+id/action_mainNavFragment_to_userListFragment"
+            app:destination="@id/userListFragment" />
+    </fragment>
+</navigation>

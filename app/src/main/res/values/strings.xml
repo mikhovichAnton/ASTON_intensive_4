@@ -10,4 +10,9 @@
     <string name="message_from_fragment_b">Message from Fragment B</string>
     <string name="to_fragment_d">To Fragment D</string>
     <string name="back_to_b">Back to B</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="user_photo">User Photo</string>
 </resources>
