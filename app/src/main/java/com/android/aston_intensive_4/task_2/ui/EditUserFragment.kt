@@ -1,17 +1,14 @@
 package com.android.aston_intensive_4.task_2.ui
 
-import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.android.aston_intensive_4.databinding.FragmentEditUserBinding
-import com.android.aston_intensive_4.task_2.model.User
+
 
 class EditUserFragment : Fragment() {
 
