@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ASTON_intensive_4</string>
+    <string name="task_2">Task 2</string>
+    <string name="task_1">Task 1</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_b_fragment">Go to B Fragment</string>
+    <string name="back_to_a">Back to A</string>
+    <string name="to_fragment_c">To Fragment C</string>
+    <string name="message_from_fragment_b">Message from Fragment B</string>
+    <string name="to_fragment_d">To Fragment D</string>
+    <string name="back_to_b">Back to B</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="user_photo">User Photo</string>
 </resources>
